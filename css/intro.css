@@ -1,0 +1,69 @@
+h1.title-intro {
+  color: #489176;
+}
+
+.menu-intro {
+  color: #489176;
+  background-color: var(--back-color);
+}
+
+header a.panel.panel-intro:link {
+  color: #489176;
+  background-color: var(--back-color);
+}
+
+header a.panel.panel-intro:visited {
+  color: #489176;
+  background-color: var(--back-color);
+}
+
+header a.panel.panel-intro.panel-selected:visited {
+  color: white;
+  background-color: #489176;
+}
+
+/* hover must comes after link and visited to be effective */
+header a.panel.panel-intro:hover {
+  color: white;
+  background-color: #489176;
+}
+
+/* applied just during the time the link is selected */
+header a.panel.panel-intro:active {
+  color: #489176;
+  background-color: var(--back-color);
+}
+
+/* mark important word color */
+mark.intro {
+  color: #489176;
+  background-color: var(--back-color);
+}
+
+/* zone definition details */
+.zone-intro {
+  color: white;
+  background-color: #489176;
+}
+
+p.zone-def-intro {
+  color: white;
+  background-color: #489176;
+}
+
+p.zone-detail-intro {
+  color: white;
+  background-color: #489176;
+}
+
+/* menu link */
+.menu-link-intro {
+  color: #489176;
+  background-color: var(--back-color);
+}
+
+/* nav link */
+.nav-link-intro {
+  color: #489176;
+  background-color: var(--back-color);
+}

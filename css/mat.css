@@ -1,0 +1,80 @@
+h1.title-mat {
+  color: #735751;
+}
+
+.menu-mat {
+  color: #735751;
+  background-color: var(--back-color);
+}
+
+header a.panel.panel-mat:link {
+  color: #735751;
+  background-color: var(--back-color);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2em;
+  border-color: #735751;
+}
+
+header a.panel.panel-mat:visited {
+  color: #a8b0bd;
+  background-color: var(--back-color);
+  border-width: 0;
+  border-color: var(--back-color);
+}
+
+header a.panel.panel-mat.panel-selected:visited {
+  color: #735751;
+  background-color: var(--back-color);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2em;
+  border-color: #735751;
+}
+
+/* hover must comes after link and visited to be effective */
+header a.panel.panel-mat:hover {
+  color: var(--back-color);
+  background-color: #735751;
+  border-color: #735751;
+}
+
+/* applied just during the time the link is selected */
+header a.panel.panel-mat:active {
+  color: #735751;
+  background-color: var(--back-color);
+}
+
+/* mark important word color */
+mark.mat {
+  color: #735751;
+  background-color: var(--back-color);
+}
+
+/* zone definition details */
+.zone-mat {
+  color: white;
+  background-color: #735751;
+}
+
+p.zone-def-mat {
+  color: white;
+  background-color: #735751;
+}
+
+p.zone-detail-mat {
+  color: white;
+  background-color: #735751;
+}
+
+/* menu link */
+.menu-link-mat {
+  color: #735751;
+  background-color: var(--back-color);
+}
+
+/* nav link */
+.nav-link-mat {
+  color: #735751;
+  background-color: var(--back-color);
+}

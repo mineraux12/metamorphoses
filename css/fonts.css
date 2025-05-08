@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url(../fonts/PlusJakartaSans-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url(../fonts/PlusJakartaSans-Bold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url(../fonts/PlusJakartaSans-Italic.ttf) format("truetype");
+  font-style: italic;
+  font-weight: normal;
+}
+
+/* create new font name for semibold */
+@font-face {
+  font-family: "PlusJakartaSansSemiBold";
+  src: url(../fonts/PlusJakartaSans-SemiBold.ttf) format("truetype");
+}
+
+/* create new font name for italicsemibold */
+@font-face {
+  font-family: "PlusJakartaSansItalicSemiBold";
+  src: url(../fonts/PlusJakartaSans-SemiBoldItalic.ttf) format("truetype");
+}

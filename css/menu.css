@@ -1,0 +1,54 @@
+a[role="button"] {
+  display: flex;
+  font-family: "Roboto", Fallback, sans-serif;
+  flex-direction: row;
+  font-size: 2.3em;
+  margin: auto;
+  justify-content: start;
+  align-items: center;
+}
+
+.menu-title {
+  display: flex;
+  font-family: "Roboto", Fallback, sans-serif;
+  font-size: 2.3em;
+  justify-content: center;
+  align-items: center;  
+  margin: auto;
+}
+
+.menu-icon {
+  /* margin: 5px auto 5px auto; */
+  display: block-inline;
+  /* width: 95px;
+  height: 89px; */
+  width: 85px;
+  height: 79px;
+  /* justify-content: center;
+  align-items: center; */
+  margin-right: 80px;
+  margin-left: 120px;
+}
+
+a.tiny-menu-link {
+  font-family: "Roboto", Fallback, sans-serif;
+  font-size: 1.0em;
+}
+
+img.tiny-menu-icon {
+  /* margin: 5px auto 5px auto; */
+  display: block-inline;
+  /* width: 95px;
+  height: 89px; */
+  width: 45px;
+  height: 39px;
+  /* justify-content: center;
+  align-items: center; */
+  margin-right: 10px;
+  margin-left: 60px;
+  vertical-align: middle;
+}
+
+:root {
+  --button-back-color: "#FFFBFA";
+}

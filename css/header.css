@@ -1,0 +1,34 @@
+header a.panel {
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 1em;
+  padding: 5px;
+}
+
+header a.panel:link {
+  color: black;
+  background-color: var(--back-color);
+}
+
+header a.panel:visited {
+  color: black;
+  background-color: var(--back-color);
+}
+
+header a.panel.panel-selected:visited {
+  color: white;
+  background-color: black;
+}
+
+/* hover must comes after link and visited to be effective */
+header a.panel:hover {
+  color: black;
+  background-color: lightgreen;
+}
+
+/* applied just during the time the link is selected */
+header a.panel:active {
+  color: black;
+  background-color: var(--back-color);
+}
+

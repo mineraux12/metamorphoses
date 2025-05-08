@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Le trophée</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="Duo v0.1">
+<!-- <base href="..." /> -->
+<link rel="stylesheet" href="css/mini.min.css" />
+<link rel="stylesheet" href="css/icons.css" />
+<link rel="stylesheet" href="css/menu.css" />
+<link rel="stylesheet" href="css/tasklist.css" />
+<link rel="stylesheet" href="css/admonition.css" />
+<link rel="stylesheet" href="css/highlight_pygment.css" />
+<link rel="stylesheet" href="css/table.css" />
+<link rel="stylesheet" href="css/tree.css" />
+<link rel="stylesheet" href="css/video.css" />
+<link rel="stylesheet" href="css/progress_bar.css" />
+<link rel="stylesheet" href="css/glowing_circle.css" />
+<link rel="stylesheet" href="css/header.css" />
+<link rel="stylesheet" href="css/trophee.css" />
+<link rel="stylesheet" href="css/quiz.css" />
+<link rel="stylesheet" href="css/fonts.css" />
+<link rel="stylesheet" href="css/global.css" />
+<link rel="stylesheet" href="css/mat.css" />
+<link rel="stylesheet" href="css/index.css" />
+<link rel="stylesheet" href="css/intro.css" />
+<link rel="stylesheet" href="css/geo.css" />
+<link rel="stylesheet" href="css/orga.css" />
+<link rel="stylesheet" href="css/crista.css" />
+<link rel="stylesheet" href="css/fonts_page.css" />
+<script defer src="js/all.min.js"></script>
+<script defer src="js/fontawesome.min.js"></script>
+</head>
+<body>
+<div class="container">
+<div class="row">
+
+  <div class="col-sm-1"></div>
+
+  /// html | div.col-sm-10
+
+  <header class="sticky" markdown="1">
+  [<img class="material_design_icon" src="./icons/arrow-up-bold-box.svg" /> ==Menu=={: .menu-link .menu-trophee }](./index.html)
+  </header>
+
+• Du parfait à l'imparfait
+{: .subsection}
+
+# Le Trophee {: .title-trophee }
+
+==Lorem ipsum dolor sit amet=={: .word .trophee }, consectetur adipiscing elit. Etiam sed elementum erat. Vestibulum fringilla risus et lacus luctus, eget volutpat lacus gravida. Nulla vel libero eget tellus mollis rhoncus eu sit amet massa. Morbi in elit a sem volutpat ultricies. Praesent pulvinar eros eget venenatis tincidunt. Proin ac pellentesque enim, ut porta mi. Mauris vitae dui vestibulum, elementum felis id, imperdiet mauris. Proin scelerisque vel nisl non vestibulum. Duis tempor imperdiet nisl, at sollicitudin purus rutrum vitae. Suspendisse ut congue diam. Donec venenatis lectus sit amet fermentum scelerisque. Sed eu pretium libero. Aenean ornare sollicitudin sapien, a convallis nibh vehicula sed.
+
+Ut fringilla nisi eget consectetur vulputate. Etiam facilisis pretium dolor vel vehicula. Aliquam quis velit at arcu ornare tincidunt eleifend ac nunc. Proin porttitor pellentesque elementum. Morbi tincidunt eros vitae ipsum eleifend, sit amet aliquam eros gravida. Vestibulum hendrerit lacus erat, sit amet congue massa vestibulum eget. Praesent maximus sagittis augue nec maximus. Nunc in rhoncus sem, vel blandit arcu. Sed vitae leo eget ex consectetur vestibulum pellentesque eget orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+Pellentesque risus urna, molestie ac ultrices in, feugiat a justo. Nam vel consequat libero. Praesent efficitur eros lacus, vel aliquet metus tempor eget. Nulla auctor nec turpis vitae euismod. Duis volutpat venenatis arcu, at volutpat magna tempor at. Praesent vehicula dolor ex, vel gravida sem viverra ac. Aenean sit amet dui magna. Maecenas eleifend at quam a pharetra. Cras nec eros tellus. Aenean condimentum fermentum nunc non venenatis. Curabitur ornare sapien mauris, nec elementum tellus vestibulum et. Proin mollis ultricies viverra. Maecenas tincidunt nulla quis posuere volutpat. Fusce tincidunt maximus metus id ornare.
+
+  ///
+
+  <div class="col-sm-1"></div>
+
+///
+
+<div class="row">
+  <div class="col-sm-2"></div>
+  <div class="col-sm-1"></div>
+  <div class="col-sm-2"></div>
+  /// html | div.col-sm-2
+[<img class="material_design_icon" src="./icons/arrow-up-bold-box.svg" /> ==Menu=={: .nav-link .nav-link-trophee }](./index.html)
+  ///
+  <div class="col-sm-2"></div>
+  <div class="col-sm-1"></div>
+  <div class="col-sm-2"></div>
+///
+</div>    
+<hr />
+&copy; 
+<script type="module">
+   import mermaid from './js/mermaid.esm.mjs';
+   mermaid.initialize({ startOnLoad: true });
+</script>
+<script src="./js/tex-mml-chtml.js"></script>
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [ ["\\(","\\)"] ],
+    displayMath: [ ["\\[","\\]"] ],
+    processEscapes: true,
+    processEnvironments: true
+  },
+  options: {
+    ignoreHtmlClass: ".*",
+    processHtmlClass: "arithmatex"
+  }
+};
+</script>
+<!--
+<script>
+window.MathJax = {
+  options: {
+    ignoreHtmlClass: 'tex2jax_ignore',
+    processHtmlClass: 'tex2jax_process',
+    renderActions: {
+      find: [10, function (doc) {
+        for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+          const display = !!node.type.match(/; *mode=display/);
+          const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+          const text = document.createTextNode('');
+          const sibling = node.previousElementSibling;
+          node.parentNode.replaceChild(text, node);
+          math.start = {node: text, delim: '', n: 0};
+          math.end = {node: text, delim: '', n: 0};
+          doc.math.push(math);
+          if (sibling && sibling.matches('.MathJax_Preview')) {
+            sibling.parentNode.removeChild(sibling);
+          }
+        }
+      }, '']
+    }
+  }
+};
+</script>
+-->
+<script src="js/quiz.js"></script>
+</body>
+</html>

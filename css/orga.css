@@ -1,0 +1,80 @@
+h1.title-orga {
+  color: #c6a68f;
+}
+
+.menu-orga {
+  color: #c6a68f;
+  background-color: var(--back-color);
+}
+
+header a.panel.panel-orga:link {
+  color: #c6a68f;
+  background-color: var(--back-color);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2em;
+  border-color: #c6a68f; 
+}
+
+header a.panel.panel-orga:visited {
+  color: #a8b0bd;
+  background-color: var(--back-color);
+  border-width: 0;
+  border-color: var(--back-color);
+}
+
+header a.panel.panel-orga.panel-selected:visited {
+  color: #c6a68f;
+  background-color: var(--back-color);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2em;
+  border-color: #c6a68f;
+}
+
+/* hover must comes after link and visited to be effective */
+header a.panel.panel-orga:hover {
+  color: var(--back-color);
+  background-color: #c6a68f;
+  border-color: #c6a68f;
+}
+
+/* applied just during the time the link is selected */
+header a.panel.panel-orga:active {
+  color: #c6a68f;
+  background-color: var(--back-color);
+}
+
+/* mark important word color */
+mark.orga {
+  color: #c6a68f;
+  background-color: var(--back-color);
+}
+
+/* zone definition details */
+.zone-orga {
+  color: white;
+  background-color: #c6a68f;
+}
+
+p.zone-def-orga {
+  color: white;
+  background-color: #c6a68f;
+}
+
+p.zone-detail-orga {
+  color: white;
+  background-color: #c6a68f;
+}
+
+/* menu link */
+.menu-link-orga {
+  color: #c6a68f;
+  background-color: var(--back-color);
+}
+
+/* nav link */
+.nav-link-orga {
+  color: #c6a68f;
+  background-color: var(--back-color);
+}

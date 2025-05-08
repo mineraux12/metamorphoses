@@ -1,0 +1,80 @@
+/* title format */
+h1 {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 2.0em;
+  margin-top: 4px;
+}
+
+/* text paragraph font */
+p {
+  font-family: "PlusJakartaSans";
+  font-size: 0.96em;
+}
+
+/* subsection */
+p.subsection {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8em;
+  color: #a8b0bd;
+  margin: 12px 8px 4px 8px;
+}
+
+/* panel */
+header a.panel {
+  font-family: "PlusJakartaSansSemiBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8em;
+  text-transform: none;
+  tex-align: center;
+  padding: 4px 1em 4px 1em;
+}
+
+/* image full width */
+.img-wide {
+  width: 100%;
+  height: auto;
+}
+
+/* marked important words */
+mark.word {
+  font-family: "PlusJakartaSansItalicSemiBold";
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* zone definition details */
+p.zone-def {
+  display: flex;
+  font-size: 1.36em;
+  font-style: italic;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: left;
+}
+
+p.zone-detail {
+  font-size: 0.96em;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* menu link */
+.menu-link {
+  font-family: "PlusJakartaSans";
+  font-style: normal;
+  font-weight: bold;
+  padding: 2px 2px 2px 2px;
+  margin-right: 1em;
+}
+
+/* nav link */
+.nav-link {
+  font-family: "PlusJakartaSans";
+  font-style: normal;
+  font-weight: bold;
+  padding: 2px 2px 2px 2px;
+}

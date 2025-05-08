@@ -1,0 +1,80 @@
+h1.title-geo {
+  color: #ff8360;
+}
+
+.menu-geo {
+  color: #ff8360;
+  background-color: var(--back-color);
+}
+
+header a.panel.panel-geo:link {
+  color: #ff8360;
+  background-color: var(--back-color);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2em;
+  border-color: #ff8360;
+}
+
+header a.panel.panel-geo:visited {
+  color: #a8b0bd;
+  background-color: var(--back-color);
+  border-width: 0;
+  border-color: var(--back-color);
+}
+
+header a.panel.panel-geo.panel-selected:visited {
+  color: #ff8360;
+  background-color: var(--back-color);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2em;
+  border-color: #ff8360;
+}
+
+/* hover must comes after link and visited to be effective */
+header a.panel.panel-geo:hover {
+  color: var(--back-color);
+  background-color: #ff8360;
+  border-color: #ff8360;
+}
+
+/* applied just during the time the link is selected */
+header a.panel.panel-geo:active {
+  color: #ff8360;
+  background-color: var(--back-color);
+}
+
+/* mark important word color */
+mark.geo {
+  color: #ff8360;
+  background-color: var(--back-color);
+}
+
+/* zone definition details */
+.zone-geo {
+  color: white;
+  background-color: #ff8360;
+}
+
+p.zone-def-geo {
+  color: white;
+  background-color: #ff8360;
+}
+
+p.zone-detail-geo {
+  color: white;
+  background-color: #ff8360;
+}
+
+/* menu link */
+.menu-link-geo {
+  color: #ff8360;
+  background-color: var(--back-color);
+}
+
+/* nav link */
+.nav-link-geo {
+  color: #ff8360;
+  background-color: var(--back-color);
+}

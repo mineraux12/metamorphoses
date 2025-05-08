@@ -1,0 +1,24 @@
+.material_design_icon {
+   width: 24px;
+   height: 24px;
+   vertical-align: middle;
+}
+
+img.tiny-header-icon {
+  /* margin: 5px auto 5px auto; */
+  display: block-inline;
+  /* width: 95px;
+  height: 89px; */
+  width: 35px;
+  height: 29px;
+  /* justify-content: center;
+  align-items: center; */
+  margin-right: 10px;
+  margin-left: 60px;
+  vertical-align: baseline;
+}
+
+.emojione {
+   width: 24px;
+   height: 24px;
+}

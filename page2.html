@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>page2</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="Duo v0.1">
+<!-- <base href="..." /> -->
+<link rel="stylesheet" href="css/mini.min.css" />
+<link rel="stylesheet" href="css/icons.css" />
+<link rel="stylesheet" href="css/menu.css" />
+<link rel="stylesheet" href="css/tasklist.css" />
+<link rel="stylesheet" href="css/admonition.css" />
+<link rel="stylesheet" href="css/highlight_pygment.css" />
+<link rel="stylesheet" href="css/table.css" />
+<link rel="stylesheet" href="css/tree.css" />
+<link rel="stylesheet" href="css/video.css" />
+<link rel="stylesheet" href="css/progress_bar.css" />
+<link rel="stylesheet" href="css/glowing_circle.css" />
+<link rel="stylesheet" href="css/header.css" />
+<link rel="stylesheet" href="css/trophee.css" />
+<link rel="stylesheet" href="css/quiz.css" />
+<link rel="stylesheet" href="css/fonts.css" />
+<link rel="stylesheet" href="css/global.css" />
+<link rel="stylesheet" href="css/mat.css" />
+<link rel="stylesheet" href="css/index.css" />
+<link rel="stylesheet" href="css/intro.css" />
+<link rel="stylesheet" href="css/geo.css" />
+<link rel="stylesheet" href="css/orga.css" />
+<link rel="stylesheet" href="css/crista.css" />
+<link rel="stylesheet" href="css/fonts_page.css" />
+<script defer src="js/all.min.js"></script>
+<script defer src="js/fontawesome.min.js"></script>
+</head>
+<body>
+<div class="container">
+<h1>Les Minéraux</h1>
+<p>Il est important de constater que les <strong>minéraux</strong> de la famille des <em>Halogénures</em> sont des &hellip;</p>
+<h2>Une visualisation</h2>
+<p><img alt="Halogénures" src="./img/Atomic_ionic_radii_halides.png" /></p>
+<h2>it rocks at 30 ℃ !</h2>
+<p>1. N<sub>2</sub>H<sub>4</sub>+NO<sub>2</sub> ⟶ N<sub>2</sub>H<sub>3</sub>+HONO</p>
+<p>2a. N<sub>2</sub>H<sub>3</sub>+NO<sub>2</sub> ⟶ N<sub>2</sub>H<sub>3</sub>NO<sub>2</sub></p>
+<p>2b. N<sub>2</sub>H<sub>3</sub>NO<sub>2</sub> ⟶ N<sub>2</sub>H<sub>2</sub>+HONO</p>
+<p>2c. N<sub>2</sub>H<sub>3</sub>+NO<sub>2</sub> ⟶ N<sub>2</sub>H<sub>2</sub>+HONO</p>
+<p>3. N<sub>2</sub>H<sub>2</sub>+NO<sub>2</sub> ⟶ NNH+HONO</p>
+<p>4. NNH+NO<sub>2</sub> ⟶ N<sub>2</sub>+HONO</p>
+<h2>Useful Unicode for Chemists</h2>
+<p><a href="https://chenzhijin.com/en/article/Useful%20Unicode%20for%20Chemists/">here</a></p>
+<p>:N≡N:</p>
+<p>:N⠿N:</p>
+<h2>some definitions</h2>
+<dl>
+<dt>☠
+  - Poison
+☢
+  - Radioactive 
+☣
+  - Biohazard
+⌬
+  - Benzene 
+⏣
+  - Benzene</dt>
+</dl>
+<h2>use MathJax for chemical reactions</h2>
+<div class="arithmatex">\[
+\ce{NO2(g) + CO(g) -&gt; NO(g) + CO2 (g)} \label{14.6.2}
+\]</div>
+</div>    
+<hr />
+&copy; 
+<script type="module">
+   import mermaid from './js/mermaid.esm.mjs';
+   mermaid.initialize({ startOnLoad: true });
+</script>
+<script src="./js/tex-mml-chtml.js"></script>
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [ ["\\(","\\)"] ],
+    displayMath: [ ["\\[","\\]"] ],
+    processEscapes: true,
+    processEnvironments: true
+  },
+  options: {
+    ignoreHtmlClass: ".*",
+    processHtmlClass: "arithmatex"
+  }
+};
+</script>
+<!--
+<script>
+window.MathJax = {
+  options: {
+    ignoreHtmlClass: 'tex2jax_ignore',
+    processHtmlClass: 'tex2jax_process',
+    renderActions: {
+      find: [10, function (doc) {
+        for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+          const display = !!node.type.match(/; *mode=display/);
+          const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+          const text = document.createTextNode('');
+          const sibling = node.previousElementSibling;
+          node.parentNode.replaceChild(text, node);
+          math.start = {node: text, delim: '', n: 0};
+          math.end = {node: text, delim: '', n: 0};
+          doc.math.push(math);
+          if (sibling && sibling.matches('.MathJax_Preview')) {
+            sibling.parentNode.removeChild(sibling);
+          }
+        }
+      }, '']
+    }
+  }
+};
+</script>
+-->
+<script src="js/quiz.js"></script>
+</body>
+</html>

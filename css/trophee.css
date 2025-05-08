@@ -1,0 +1,69 @@
+h1.title-trophee {
+  color: #2b2d42;
+}
+
+.menu-trophee {
+  color: #2b2d42;
+  background-color: var(--back-color);
+}
+
+header a.panel.panel-trophee:link {
+  color: #2b2d42;
+  background-color: var(--back-color);
+}
+
+header a.panel.panel-trophee:visited {
+  color: #2b2d42;
+  background-color: var(--back-color);
+}
+
+header a.panel.panel-trophee.panel-selected:visited {
+  color: white;
+  background-color: #2b2d42;
+}
+
+/* hover must comes after link and visited to be effective */
+header a.panel.panel-trophee:hover {
+  color: white;
+  background-color: #2b2d42;
+}
+
+/* applied just during the time the link is selected */
+header a.panel.panel-trophee:active {
+  color: #2b2d42;
+  background-color: var(--back-color);
+}
+
+/* mark important word color */
+mark.trophee {
+  color: #2b2d42;
+  background-color: var(--back-color);
+}
+
+/* zone definition details */
+.zone-trophee {
+  color: white;
+  background-color: #2b2d42;
+}
+
+p.zone-def-trophee {
+  color: white;
+  background-color: #2b2d42;
+}
+
+p.zone-detail-trophee {
+  color: white;
+  background-color: #2b2d42;
+}
+
+/* menu link */
+.menu-link-trophee {
+  color: #2b2d42;
+  background-color: var(--back-color);
+}
+
+/* nav link */
+.nav-link-trophee {
+  color: #2b2d42;
+  background-color: var(--back-color);
+}
