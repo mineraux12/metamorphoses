@@ -7,7 +7,7 @@ h1 {
 }
 
 /* text paragraph font */
-p {
+p, .normaltext {
   font-family: "PlusJakartaSans";
   font-size: 0.96em;
 }
